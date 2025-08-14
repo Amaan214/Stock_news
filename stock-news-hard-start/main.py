@@ -3,14 +3,14 @@ import smtplib
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 
-me_email = "mnakhtar81@gmail.com"
-passwd = "ujtf cyxf wijr krkp"
+me_email = "Your_email"
+passwd = "Your password"
 
 STOCK_ENDPOINT = "https://www.alphavantage.co/query?"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
-stock_price_api = "5MHRDWCY4C72JSUC"
-news_api_key = "8c2ce530d1724a1e8dff110aa529daaf"
+stock_price_api = "Stock_api_key"
+news_api_key = "News_api_key"
 
 stock_param = {
     "function": "TIME_SERIES_DAILY",
